@@ -23,22 +23,11 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 TODO: List prerequisites and provide or point to information on how to
 start using the package.
 
-## Usage
-
+ 
 ## Overview:
 The Routes package is a utility class designed to simplify navigation within a Flutter application. It provides methods to facilitate common navigation operations such as pushing new routes, replacing routes, and removing routes.
 
-## Key Features:
 
-Singleton Design Pattern: The Routes class is implemented as a singleton, ensuring there's only one instance of it throughout the application's lifecycle.
-
-Pushing Routes: The package offers a method push() to navigate to a new screen by pushing it onto the navigation stack. This method takes a Widget and the BuildContext as parameters.
-
-Pushing and Removing Until: Another method pushAndRemoveUntil() is provided for scenarios where you need to push a new route and remove all the routes below it from the stack. This is particularly useful for implementing features like authentication flows.
-
-Replacing Routes: The pushReplace() method replaces the current route on the navigation stack with a new one. This is commonly used for scenarios like going from a login screen to a home screen and ensuring the user cannot navigate back to the login screen.
-
-Popping Routes: The pop() method allows for popping the current route off the navigation stack, effectively navigating back to the previous screen. This method is useful for handling back button presses or implementing custom navigation logic.
 
 ## Usage:
 Developers can utilize the Routes package to streamline navigation operations within their Flutter applications. By importing and using this package, they can easily manage routes without needing to directly interact with the Navigator widget, reducing boilerplate code and enhancing code readability.

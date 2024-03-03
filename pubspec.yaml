@@ -1,7 +1,7 @@
 name: screen_routes_helper
 description: "A screen Implicit Navigation helper  "
 version: 0.0.1
-homepage: 
+homepage: https://github.com/Shan-john/screen_routes_helper
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
